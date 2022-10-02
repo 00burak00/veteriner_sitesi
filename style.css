@@ -1,0 +1,23 @@
+.kutu{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-top: 16px;
+}
+@keyframes anm{
+    0% { transform: scale(1);} 
+    33% { transform: scale(1.08);}
+    66% { transform: scale(1.16);}
+    100% {transform: scale(1.25);}
+}
+.kutu:hover{
+    animation-name: anm;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+.kutu img{
+    width: 150px;
+    height: 200px;
+}
+
+
